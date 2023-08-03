@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NumberPickerStyle">
+        <item name="android:background">@drawable/number_picker_background</item>
+
+    </style>
+
+    <style name="ShadowStyle">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:translationZ">4dp</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:background">@drawable/logout_dialog_background</item>
+    </style>
+
+
+</resources>
